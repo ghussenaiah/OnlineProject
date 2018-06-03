@@ -41,3 +41,13 @@ public interface HelpDocument {}
 	//git push origin master
 	//# Pushes the changes in your local repository up to the remote repository you specified as the origin
 
+    //to pull code from remote
+    //git pull https://github.com/ghussenaiah/OnlineProject.git master
+
+    //each repository having thire own api to pull and push code
+    //each repository having many branches  ex:-  master,beta
+
+
+     // integrate our project with git local repository with url username and password
+     //instead of giving every time
+
