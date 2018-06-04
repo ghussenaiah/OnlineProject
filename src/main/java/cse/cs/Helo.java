@@ -1,8 +1,7 @@
 package cse.cs;
 
-public class Helo {
 
-public class Student {
+public class Helo {
 
 	String name;
 	String age;

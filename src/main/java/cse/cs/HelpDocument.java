@@ -14,54 +14,38 @@ public interface HelpDocument {}
    //if remote server fails we can work with local repository 
 	
 
-			 git is nothing but distributed  version control system
-				create one repository in gitHub
-				create one mvn project in localEclipse workspace
-
-      			create index page in resources/templates/index.html path
-      		 add maven dependency fro thymeleaf
- 
-    		why we need local repository
-       		local repository is nothing but duplicate copy of remote repository 
-   			if remote server fails we can work with local repository 
 
 	// $ git add .
 	//# Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
 	
-				Change the current working directory to your local project.
-				Initialize the local directory as a Git repository.
-			 $  git init
+			//	Change the current working directory to your local project.
+			//	Initialize the local directory as a Git repository.
+			// $  git init
 	
 	
-			Add the files in your new local repository. This stages them for the first commit.
+			//Add the files in your new local repository. This stages them for the first commit.
 	//Commit the files that you've staged in your local repository.
 
 	//$ git commit -m "First commit"
 	//# Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
 
-			 $ git add .
-			# Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+		//	 $ git add .
+		//	# Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
 	
 	
-			Commit the files that you've staged in your local repository.
+		//	Commit the files that you've staged in your local repository.
 
 	//At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL.
 
 	//In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
 
-			$ git commit -m "First commit"
-			# Commits the tracked changes and prepares them to be pushed to a remote repository. 
-   			To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+			
 
 
-			At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL.
-
-			In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
-
-			git remote add origin remote https://github.com/ghussenaiah/OnlineProject.git
-			# Sets the new remote
-			git remote -v
-			# Verifies the new remote URL 	*/
+		//	git remote add origin remote https://github.com/ghussenaiah/OnlineProject.git
+		//	# Sets the new remote
+		//	git remote -v
+		//	# Verifies the new remote URL 	*/
 
 
 
