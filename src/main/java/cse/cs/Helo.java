@@ -1,6 +1,17 @@
 package cse.cs;
 
 public class Helo {
-	//iterate over collection
-	//https://stackoverflow.com/questions/38826006/angularjs-iterate-over-array-by-clicking-button
+
+public class Student {
+
+	String name;
+	String age;
+	
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }
