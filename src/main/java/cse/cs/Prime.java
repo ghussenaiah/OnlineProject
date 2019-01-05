@@ -21,6 +21,5 @@ public class Prime {
         else
             System.out.println(num + " is not a prime number.");
         //first commit in master branch
-        //second commit in master branch
     }
 }
