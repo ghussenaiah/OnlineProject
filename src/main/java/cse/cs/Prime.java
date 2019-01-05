@@ -26,7 +26,6 @@ public class Prime {
        
         //sixth commit in master branch
         //seven commit in master branch
-        //8 commit in master branch
       
     }
 }
