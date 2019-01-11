@@ -16,6 +16,7 @@ public class TestingTimeZone {
 		
 		 Date localTime = new Date(); 
 		    
+		 System.out.println("testing class");
 	     //creating DateFormat for converting time from local timezone to GMT
 	     DateFormat converter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 	     System.out.println("local time : " + converter.format(localTime));;
