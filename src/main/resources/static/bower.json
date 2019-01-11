@@ -1,0 +1,21 @@
+{
+  "name": "online",
+  "authors": [
+    "husen"
+  ],
+  "description": "online",
+  "main": "app.js",
+  "keywords": [
+    "ll"
+  ],
+  "license": "unlicensed",
+  "homepage": "\"\"",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

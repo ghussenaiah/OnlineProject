@@ -1,6 +1,5 @@
 package com.test.normal.test;
-import org.apache.commons.beanutils.ConvertUtils;
-import org.apache.commons.codec.binary.StringUtils;
+
 
 public class SplitString {
 	
@@ -11,8 +10,8 @@ public class SplitString {
 		String[] Values = dataString.split("\\~");
 		System.out.println(Values.length);
 		}
-		String value = (String) ConvertUtils.convert(dataString, String.class);
-		System.out.println(value+"am null");
+		/*String value = (String) ConvertUtils.convert(dataString, String.class);
+		System.out.println(value+"am null");*/
 		
 		String testing=" In";
 		if(testing.equalsIgnoreCase("In"))

@@ -1,4 +1,4 @@
-package com.test.normal.test;
+/*package com.test.normal.test;
 
 
 import java.io.Closeable;
@@ -107,7 +107,7 @@ public class Testmain {
 			 }
 		   int lastm=sheet2.getLastRowNum();
 		   
-       /*  for(int i=1;i<=lastm;i++){
+         for(int i=1;i<=lastm;i++){
 			   
 			   HSSFRow row = (HSSFRow) sheet1.getRow(i);
 				HSSFCell cell0=row.getCell(0);      
@@ -120,7 +120,7 @@ public class Testmain {
 				   }
 		 }
 		   
-         System.out.println("secondlist"+bedf);*/
+         System.out.println("secondlist"+bedf);
 		 
          int last=sheet2.getLastRowNum();
         
@@ -185,7 +185,7 @@ public class Testmain {
 			   System.out.println(aa);
 			   //System.out.println("count"+count++);
 		   }
-		  /* System.out.println("actual data data is"+duplicatedata);
+		   System.out.println("actual data data is"+duplicatedata);
 		   
 		   for(String aaa:myList1)
 		   {
@@ -194,8 +194,8 @@ public class Testmain {
 		   for(String aaa:myList2)
 		   {
 			   System.out.println(aaa);
-		   }*/
-		 /*  for (Map.Entry<String, String> entry : duplicatedata.entrySet())
+		   }
+		   for (Map.Entry<String, String> entry : duplicatedata.entrySet())
 		   {
 			  
 		       System.out.println(entry.getKey());
@@ -205,9 +205,9 @@ public class Testmain {
 		   {
 			  
 		       System.out.println(entrym.getKey());
-		   }*/
+		   }
 		   
-		 /*  checkdata.clear();
+		   checkdata.clear();
 		   avc.clear();
 				for(int i=1;i<=last;i++){
 				   
@@ -252,7 +252,7 @@ public class Testmain {
 				   {
 				   System.out.println(entry.getKey());
 				   }
-				*/
+				
 				
 				//printing(second);
 	}
@@ -262,10 +262,10 @@ public class Testmain {
 		      longer = s2; shorter = s1;
 		    }
 		    int longerLength = longer.length();
-		    if (longerLength == 0) { return 1.0; /* both strings are zero length */ }
-		    /* // If you have StringUtils, you can use it to calculate the edit distance:
+		    if (longerLength == 0) { return 1.0;  both strings are zero length  }
+		     // If you have StringUtils, you can use it to calculate the edit distance:
 		    return (longerLength - StringUtils.getLevenshteinDistance(longer, shorter)) /
-		                               (double) longerLength; */
+		                               (double) longerLength; 
 		    return (longerLength - editDistance(longer, shorter)) / (double) longerLength *100;
 
 		  }
@@ -335,7 +335,7 @@ public class Testmain {
 
         System.out.println("Done");
     }
-	/*public class ProcessAction extends DispatchAction {
+	public class ProcessAction extends DispatchAction {
 
 	    String dupValue = null;
 	    ArrayList<String> dupList = new ArrayList<String>();
@@ -375,7 +375,8 @@ public class Testmain {
 		  sheet.clearContents();
 		  sheet.getRange(1, 1, newData.length, newData[0].length).setValues(newData);
 		}
-*/
+
 }
 
 
+*/

@@ -8,8 +8,7 @@ import java.util.Set;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.Multimap;
+
 
 public class SetValuesAsDynamic {
 
@@ -50,7 +49,7 @@ public class SetValuesAsDynamic {
 		}
 		
 		 // create multimap to store key and values
-        Multimap<String, String> multiMap = ArrayListMultimap.create();
+      /*  Multimap<String, String> multiMap = ArrayListMultimap.create();
         // put values into map for A
         multiMap.put("A", "Apple");
         multiMap.put("A", "Aeroplane");
@@ -68,7 +67,7 @@ public class SetValuesAsDynamic {
         for (String key : keys) {
             System.out.println("Key = " + key);
             System.out.println("Values = " + multiMap.get(key) + "n");
-        }
+        }*/
 		
 		
 		
