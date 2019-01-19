@@ -20,6 +20,7 @@ public class Prime {
             System.out.println(num + " is a prime number.");
         else
             System.out.println(num + " is not a prime number.");
+        System.out.println(num + "hrllo");
         //first commit in master branch
         //second commit in master branch
         //third commit in master branch
